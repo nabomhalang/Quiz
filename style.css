@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8ceec;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 100%);
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.quiz-container {
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.quiz-header {
+    padding: 4rem;
+    text-align: center;
+}
+.quiz-header ul{
+    text-align: left;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+}
+
+
+ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0%;
+}
+
+button {
+    background-color: #5de6de;
+    background-image: linear-gradient(
+        315deg, transparent 0%, transparent 60%,#5de6de 0%, #b58ecc 74%);
+    letter-spacing: 4px;
+    border:none;
+    display: block;
+    width: 100%;
+    color: white;
+    padding:1rem;
+    font-family: inherit;
+    font-size: 1.5rem;
+    transition: all, 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffcfdf;
+    background-image: linear-gradient(
+        315deg, transparent 0%, transparent 60%,#ffcfdf 0%, #b0f3f1 74%);
+    transition: all, 0.3s;
+}
+
